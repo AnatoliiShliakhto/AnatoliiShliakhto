@@ -40,14 +40,17 @@ I design **high‑performance**, **mission‑critical**, and **memory‑safe** s
 
 ## 🚀 Selected Projects
 
-### [MusterHub](https://github.com/AnatoliiShliakhto/muster-hub)
-**High‑performance personnel coordination platform** built as a **full‑stack Rust workspace**.
+### [Nexus](https://github.com/AnatoliiShliakhto/nexus)
+Beyond the "Software Zoo": Rethinking Enterprise Architecture with Rust and WASM.
+I’m excited to share a project I’ve been architecting: **Nexus — The Organizational Kernel**.
+Modern organizations often struggle with a "software zoo" - fragmented applications that duplicate data, security logic, and infrastructure. Nexus solves this by acting as a Modular PaaS, providing a centralized, "Fortress-First" environment for business logic.
 
-- DDD, modular workspace (apps, features, infra, shared domain)
-- Unified async runtime profiles (high‑performance vs memory‑efficient)
-- Shared types between backend and WASM frontend
-- Embedded SurrealDB, atomic storage, centralized logging & tracing
-
+**Technical Highlights:**
+- **Hybrid Runtime:** Seamlessly orchestrating ultra-lightweight **WASI P2 WebAssembly components** alongside classic containerized microservices.
+- **Intelligent Gateway:** A high-throughput **Rust (Axum)** entry point that handles DPoP validation and context enrichment
+- **Unified State:** Leveraging **SurrealDB** for graph-based, hierarchical RBAC and immutable auditing.
+- **DX Focused:** A dedicated `xtask` automation suite that simplifies complex multi-target builds.
+  
 ---
 
 ### [MAES – Military Aptitude & Evaluation System](https://github.com/AnatoliiShliakhto/maes)
